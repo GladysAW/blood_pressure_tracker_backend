@@ -8,7 +8,7 @@ const {
   deleteEntryById,
   // deleteAllEntries,
   updateEntryByID,
-} = require("../controllers/EntriesController");
+} = require("../controllers/entriesController");
 
 router.route("/").get(getAllEntries).post(addEntry);
 router
